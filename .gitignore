@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints and runtime files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# OS/editor files (Windows and macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+
+# Temporary archives and extracted scratch data
+*.zip
+*.tmp
+*.temp
+*.bak
+
+# Generated model artifacts and serialized binaries
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.safetensors
+*.model
+
+# Common generated data/output folders
+outputs/
+artifacts/
+
+# Keep project source/data/docs tracked
+!*.ipynb
+!day.csv
+!README.md
+!requirements.txt
